@@ -10,7 +10,7 @@ import { ProductoDescripcion } from '../../interfaces/producto-descripcion.inter
 })
 export class ItemComponent implements OnInit{
 
-id!: string;
+id!: any;
 producto: ProductoDescripcion = {};
 
 
